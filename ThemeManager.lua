@@ -113,8 +113,8 @@ function ThemeManager:ApplySavedDefault()
     local n = self:GetDefaultThemeName()
     if not n then
         -- Jika belum ada default yang disimpan, kita set ke "Flame"
-        self:SetDefaultThemeName("Flame")
-        n = "Flame"
+        self:SetDefaultThemeName("Default")
+        n = "Default"
     end
     return self:LoadTheme(n)
 end
@@ -144,7 +144,7 @@ function ThemeManager:ListThemes()
     table.sort(list)
     -- Taruh "Flame" di urutan pertama (agar mudah dipilih)
     for i, n in ipairs(list) do
-        if n == "Flame" then
+        if n == "Ice" then
             table.remove(list, i)
             table.insert(list, 1, n)
             break
