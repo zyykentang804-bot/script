@@ -11,8 +11,8 @@ local NOTIF_ICON = "97594400820219"
 local DEFAULT_THEMES = {
     -- "Default" sekarang biru laut gelap (sesuai "blue laut + gelep")
     ["Default"] = {
-        Accent = Color3.fromRGB(30, 80, 150),
-        AccentGradient = Color3.fromRGB(20, 60, 120),
+        Accent = Color3.fromRGB(180, 230, 255),
+        AccentGradient = Color3.fromRGB(100, 180, 255),
     },
     ["Dark"] = {
         Accent = Color3.fromRGB(130, 130, 145),
@@ -38,10 +38,6 @@ local DEFAULT_THEMES = {
     ["Green"] = {
         Accent = Color3.fromRGB(80, 200, 120),
         AccentGradient = Color3.fromRGB(60, 160, 90),
-    },
-    ["Red"] = {
-        Accent = Color3.fromRGB(220, 80, 80),
-        AccentGradient = Color3.fromRGB(180, 50, 50),
     },
     ["Orange"] = {
         Accent = Color3.fromRGB(255, 160, 50),
